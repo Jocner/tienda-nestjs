@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "peartec",
+  "private_key_id": "bcd7199dd6e3f356f5bc3982c0223f7796de2568",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDcdZXfdhSB88+g\nRqJBp3eL9Gx0KLoZfidlRhP+Jj88gVjpZgYy/NeMuKEwAtmgHA6bnOTG54RKnqL0\neOR00FvDe1VtHNCI7qkdCjuEMUNu08VK8KpSNdysqllUOzjvRzGtrfjs6eJKmM/f\n6y2hSMQ6w05o0PRoD92a/bsd98xF6/2yeSrJhr2YgG6GJZWlnsVuBt3M7MKNLKIn\nNcrwHwjZ0rw8zf6745tE/kuvw30PxmzFNNJl2qxf58PX+FWMHjUsrEY+QivHDtUc\nrq7soY1BxQaD82GEnFoYt+fwbo8U5ZWLSy6tPyLLUUb3X89W6T3UK5fYl8mLtrIV\nK482eKc3AgMBAAECggEAIot/rexgJPIsw/34HuGRp1SS9KtiaJbkBXKIX3gOy08E\nEk6dBLr/QQW3/ECgvqim1quBuHPpaZKXZkeAmkKr87hibR6UGWDhubMzcEYSkviM\nHxoRwPVqXC61S1rxqPeMSUghjBN6FMZX4cva8pLnF24oiIl1mCN5o3fELQX59Fqj\n34D1e0P4o9Rc8p3ycQA5v655LOCrTPZv20gjZoKR59TSUfumpWJCYRG3R8eEv0rv\nRuyAsgdI5xXqj+JgFd6SbtgEiu8vfzjAoa6RGi+sEbw+TPUj3wKcWQWSL94miyYH\nwBHpemnOJOYj37MO9SbFlJC9B0RWvZByJwmkt1ORgQKBgQDvKQo2Nit49Qtmg/sC\ngP3fzFgvIkpdnHw1KtSGIFovKd7EkJy9HjzDW/xsJCmoIk4uVf+vaSGQP1iZBCBn\nw29g4ImiQeU0xwt5MNnPH+IHWP1vhXL6YLp52YxtzNIODZm5n1uo8kkBLMz2nacf\n/HDL3g8BzM13xvCyQul/Q0ZiqQKBgQDr+3PiH3PEWCXWtWFsrffpjlUNC7XNCNfb\n5FDQxxx0pmmCo0TI3oKNo8Ua8BOR4foskouQtakVHw9K23+EJaZyHCUVDgT0x5GO\nLtwM/CBbIUbTDwjsp2kBQulA1X5MA7m9DrpNhDxzBLeMO6Jh50Hd1emgJnrMCZi8\nbWKsz0rG3wKBgQDZFRhm0s6s8UhS2lOaFznZzWLyDZ8Qz3zSybi0smMJ0miZZWZQ\nJ0UiUrmR81U4f0MVvgvizXugsk8aPWuoo/XSKp3jgQqq2E1qyNO7tQX2g2kvtCME\nb450Eerss3CrPt8dZS/O73Uisuasp7dOSlacRki66opKQXKzbBcD5C3cWQKBgQCv\nvPVSAqZOJG8ZdL53Fx+2+V5xdrUPWnSWt3NP59hTLtMIjNpe1QZYwQu6wetxCt8q\nboAtZnvi1NyonMpb+UX5WOhsw6IBQNYvEsqhiOn3s9Jwv5Of2hSi8dePhu6lYWjj\nWKJ5s+7ooSyn7IlDa9trfzCbKcztQoBSYwvHMiC39QKBgC6Mz7ie6Y5ijo++T5L2\ncFGqR4XDEQR9bOO7Ry8U8nJ5FP14UuWtdUo+j5jpK7Luj7AK3M/JR/EK1860Eciz\n3IIMk+ZrULK3PCTmpNepnFh6jxqiRW0PDI3KfWUEHMuxH59R+PWN3nT2OhlGXDXz\ngmpZ9glB362eEfkRT2a2oTlh\n-----END PRIVATE KEY-----\n",
+  "client_email": "pearsql@peartec.iam.gserviceaccount.com",
+  "client_id": "111147601850842074847",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pearsql%40peartec.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

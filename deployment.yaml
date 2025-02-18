@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-nestjs-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-nestjs-app
+  template:
+    metadata:
+      labels:
+        app: my-nestjs-app
+    spec:
+      containers:
+      - name: my-nestjs-app
+        image: gcr.io/peartec/api-nestjs-peartec:latest
+        ports:
+        - containerPort: 3000
+        env:
+        - name: PORT
+          value: "3000"
+        - name: DATABASE_HOST
+          value: "angular.cn0k4g66whi2.us-east-1.rds.amazonaws.com"
+        - name: DATABASE_PORT
+          value: 5432
+        - name: DATABASE_USER
+          value: "postgres"
+        - name: DATABASE_PASS
+          value: "Angular.4857"
+        - name: DATABASE_NAME
+          value: "Angular" 
+        - name: CLOUDINARY_NAME
+          value: "dumrfrhpj"   
