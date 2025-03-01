@@ -14,7 +14,7 @@ async function bootstrap() {
     whitelist: true
   }))
   app.enableCors({
-    origin: 'http://localhost:3001',
+    origin: 'https://api-nestjs-465543638299.us-central1.run.app',
     methods: 'GET,PUT,POST,DELETE',
     // allowedHeaders: 'Content-Type,Authorization',
   });
