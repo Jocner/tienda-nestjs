@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
-  app.use(cors());
+  // app.use(cors());
   app.useGlobalPipes(new ValidationPipe({
     whitelist: true
   }))
@@ -20,6 +20,11 @@ async function bootstrap() {
   //   methods: 'GET,PUT,POST,DELETE',
   //   // allowedHeaders: 'Content-Type,Authorization',
   // });
+  app.use(cors({
+    origin: '*', // Permitir solicitudes desde cualquier origen (puedes especificar los orígenes permitidos)
+    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Método HTTP permitidos
+    allowedHeaders: ['Content-Type', 'Authorization'], // Cabeceras permitidas
+  }));
   app.useStaticAssets(join(__dirname, '../public'))
   
   await app.listen(PORT, () => {
