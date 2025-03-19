@@ -14,7 +14,7 @@ async function bootstrap() {
     whitelist: true
   }))
   app.enableCors({
-    origin: 'https://api-nestjs-465543638299.us-central1.run.app',
+    origin: 'https://pear-tec.com/',
     methods: 'GET,PUT,POST,DELETE',
     // allowedHeaders: 'Content-Type,Authorization',
   });
